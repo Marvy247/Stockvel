@@ -5,3 +5,8 @@ dist/
 contracts/out/
 contracts/cache/
 contracts/lib/
+contracts/lib/
+contracts/out/
+contracts/cache/
+frontend/node_modules/
+frontend/dist/
