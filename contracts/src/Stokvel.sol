@@ -47,7 +47,7 @@ contract Stokvel {
         uint256 cycleDuration
     ) external returns (uint256 groupId) {
         require(contributionAmount > 0, "Amount must be > 0");
-        require(cycleDuration >= 1 days, "Cycle too short");
+        require(cycleDuration >= 5 minutes, "Cycle too short");
 
         groupId = groupCount++;
         Group storage g = groups[groupId];
